@@ -1,0 +1,20 @@
+# data 
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# notebooks
+notebooks/
+
+# secrets
+.env
+*.key
+
+# os
+.DS_Store

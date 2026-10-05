@@ -1,0 +1,359 @@
+- id: q_001
+  query: 'A dog walking on the street.'
+  question: 'What color are the dogs?'
+  type: 'compositional'
+  relevant_keys: ['000010659', '000022027', '000014045', '000130371', '000196816', '000038523', '000142083', '000187209', '000212667', '000056427', '000098748', '000015359', '000106193']
+
+- id: q_002
+  query: 'A coffee cup.'
+  question: 'How many cups contain liquid?'
+  type: 'easy_lookup'
+  relevant_keys: ['000214002', '000025564', '000007331', '000191056', '000201578', '000096755', '000079106', '000086031', '000165184', '000128516', '000120770', '000195868', '000077578', '000123596', '000109940', '000123191', '000228264', '000124493', '000097290', '000159203']
+
+- id: q_003
+  query: 'A Guidi 788Z.'
+  question: 'Where are the zips located on the boots?'
+  type: 'unanswerable'
+  relevant_keys: []
+
+- id: q_004
+  query: 'A photorealistic black cat.'
+  question: 'Which animals are depicted as photorealistic?'
+  type: 'easy_lookup'
+  relevant_keys: ['000209257', '000104046', '000212843', '000110377', '000057721', '000098443', '000144289', '000071885', '000169731', '000216610', '000096810', '000062430', '000034999', '000027794', '000192566', '000130964']
+
+- id: q_005
+  query: 'A red LEGO brick laying on top of a wooden table.'
+  question: 'What toy brands are present?'
+  type: 'unanswerable'
+  relevant_keys: []
+
+- id: q_006
+  query: 'Hearthstone cards.'
+  question: 'Which cards cost 5 mana and what do they do?'
+  type: 'easy_lookup'
+  relevant_keys: ['000096697', '000004229', '000086672']
+
+- id: q_007
+  query: 'A single slice of pizza with cheese.'
+  question: 'How many unique toppings are present?'
+  type: 'compositional'
+  relevant_keys: ['000122515', '000097673', '000059863', '000066679', '000202852', '000051671', '000174914', '000023843'] 
+
+- id: q_008
+  query: 'T bone steak.'
+  question: 'How many different cuts of meat are present?'
+  type: 'easy_lookup'
+  relevant_keys: ['000096697', '000004229', '000086672']
+
+- id: q_009
+  query: 'Robert Pattinson.'
+  question: 'Which actor is the most common among the provided images?'
+  type: 'easy_lookup'
+  relevant_keys: ['000128197', '000209597', '000124488', '000221810', '000115017', '000125871', '000218201', '000114283']
+
+- id: q_010
+  query: 'Helmut Lang astro jacket.'
+  question: 'Are any of the jackets present a Helmut Lang astro jacket?'
+  type: 'unanswerable'
+  relevant_keys: []
+
+- id: q_011
+  query: 'Fifty dollar bill.'
+  question: 'What are the serial numbers on the fifty dollar bills?'
+  type: 'easy_lookup'
+  relevant_keys: ['000188737', '000211298', '000111824']
+
+- id: q_012
+  query: 'Nintendo DS.'
+  question: 'What game franchises are visible on the handheld screens?'
+  type: 'easy_lookup'
+  relevant_keys: ['000217320'] 
+
+- id: q_013
+  query: 'Drake albums.'
+  question: 'Which of the following is album art? What are the named the artists and album titles?'
+  type: 'easy_lookup'
+  relevant_keys: ['000107972', '000118885']   
+
+- id: q_014
+  query: 'The Starry Night by Vincent Van Gogh.'
+  question: 'What painting styles do the images share? Do they share a common artist?'
+  type: 'easy_lookup'
+  relevant_keys: ['000010585', '000157140', '000113056', '000139342', '000163489']
+
+- id: q_015
+  query: 'A red car in front of a brick wall.'
+  question: 'What are the total number of vehicles throughout the images?'
+  type: 'compositional'
+  relevant_keys: ['000219875', '000117463', '000118091', '000120105', '000199653', '000044512']  
+
+- id: q_016
+  query: 'Minecraft blocks.'
+  question: 'Which in-game Minecraft blocks are present in the following images?'
+  type: 'easy_lookup'
+  relevant_keys: ['000046843', '000024120', '000127517', '000202615']  
+
+- id: q_017
+  query: 'Rick Owens shoes.'
+  question: 'Which Rick Owens shoes are in the images?'
+  type: 'unanswerable'
+  relevant_keys: []  
+
+- id: q_018
+  query: 'Green Lantern.'
+  question: 'What are the names of the Green Lanterns in the images?'
+  type: 'easy_lookup'
+  relevant_keys: ['000207373', '000193747', '000157529', '000079180', '000023267']
+
+- id: q_019
+  query: 'Silver spoon inside a bowl.'
+  question: 'In the following images, what is inside the bowl alongisde the silver spoons?'
+  type: 'unanswerable'
+  relevant_keys: []    
+
+- id: q_020
+  query: 'Green plant inside a pot.'
+  question: 'What colors are the pots the plants are in?'
+  type: 'compositional'
+  relevant_keys: ['000119304', '000153625', '000225680', '000174840', '000161887', '000161390', '000209032', '000142567', '000072961', '000162617', '000119037', '000179980', '000145237', '000203179', '000076408']    
+
+- id: q_021
+  query: 'Blue street sign.'
+  question: 'Which of these are legal street signs used for traffic?'
+  type: 'easy_lookup'
+  relevant_keys: ['000008668', '000000605', '000071528', '000060956', '000198859']   
+
+- id: q_022
+  query: 'Persona 3.'
+  question: 'Are any characters from Persona 3 present in the images?'
+  type: 'unanswerable'
+  relevant_keys: []   
+
+- id: q_023
+  query: 'Keyblade.'
+  question: 'Which Kingdom Hearts weapons are present in the images?'
+  type: 'easy_lookup'
+  relevant_keys: ['000220591']   
+
+- id: q_024
+  query: 'Cloud Strife.'
+  question: 'Are the following characters from a Square Enix franchise? If so, which game?'
+  type: 'easy_lookup'
+  relevant_keys: ['000175173', '000161451', '000139292']   
+
+- id: q_025
+  query: 'Hedi Slimane runway'
+  question: 'Which fashion designer are the following runway images synonymous with?'
+  type: 'easy_lookup'
+  relevant_keys: ['000021420', '000079274', '000095961', '000110021', '000214607', '000175100']   
+
+- id: q_026
+  query: 'Carol Christian Poell jacket'
+  question: 'Are any of the jackets associated with fashion designer Carol Christian Poell?'
+  type: 'unanswerable'
+  relevant_keys: []   
+
+- id: q_027
+  query: 'Oatmeal raisin cookie'
+  question: 'From the provided images, how many cookies are oatmeal raisin?'
+  type: 'easy_lookup'
+  relevant_keys: ['000109125', '000197011', '000093775', '000183231', '000033831', '000097394', '000113066']  
+
+- id: q_028
+  query: 'LEGO Riddler'
+  question: 'Are there any LEGO Batman villains in the following images?'
+  type: 'easy_lookup'
+  relevant_keys: ['000006157', '000006288'] 
+
+- id: q_029
+  query: 'Kendrick Lamar'
+  question: 'Are any of these people in the images rappers? What are examples of their work?'
+  type: 'easy_lookup'
+  relevant_keys: ['000201249'] 
+
+- id: q_030
+  query: 'Gren frog on a lilypad.'
+  question: 'How many frogs are sitting on lilypads across all provided images?'
+  type: 'compositional'
+  relevant_keys: ['000035475', '000057363', '000156446'] 
+
+- id: q_031
+  query: 'Kanye West'
+  question: 'Did any of these individuals intern at a major fashion house?'
+  type: 'easy_lookup'
+  relevant_keys: ['000192009', '000010725', '000121706', '000052489', '000182835', '000128628', '000201320', '000136871'] 
+
+- id: q_032
+  query: 'Elon Musk'
+  question: 'Do any of the people in the images have any relation to the company Neuralink?'
+  type: 'easy_lookup'
+  relevant_keys: ['000203784', '000203624', '000108423'] 
+
+- id: q_033
+  query: 'Cat carrying another cat in its mouth'
+  question: 'Are any of the cats in the images carrying another cat in their mouths? If so, what color are they?'
+  type: 'compositional'
+  relevant_keys: ['000216116'] 
+
+- id: q_034
+  query: 'Blue drink in glass cup'
+  question: 'What color is the liquid inside the glass cups? Aside from the liquid, what are the colors of other items inside the glass cups, if any?'
+  type: 'compositional'
+  relevant_keys: ['000042236', '000029145', '000127853', '000189088', '000112528', '000186006', '000103834', '000065739', '000069751', '000000207']
+
+- id: q_035
+  query: 'Sickle and hammer'
+  question: 'Are any of the items synonymous with the Communist revolution?'
+  type: 'compositional'
+  relevant_keys: ['000185961'] 
+
+- id: q_036
+  query: 'Two cats sleeping.'
+  question: 'Do any of the images show two of the same species sleeping?'
+  type: 'compositional'
+  relevant_keys: ['000183770'] 
+
+- id: q_037
+  query: 'Plate of pancakes with strawberries'
+  question: 'Which meal at what time of day are the following images most associated with?'
+  type: 'compositional'
+  relevant_keys: ['000080840', '000120912', '000076582', '000161142', '000013920'] 
+
+- id: q_038
+  query: 'Carpe Diem Boots'
+  question: 'Are any of the following boots appear designed by Maurizio Altieri?'
+  type: 'unanswerable'
+  relevant_keys: [] 
+
+- id: q_039
+  query: 'King Krule'
+  question: 'Did any of the following people images write the 2013 album 6 Feet Beneath The Moon?'
+  type: 'unanswerable'
+  relevant_keys: [] 
+
+- id: q_040
+  query: 'Jun Takahashi'
+  question: 'Are any of the people in the following images responsible in the creation of the Japanese label Undercover?'
+  type: 'unanswerable'
+  relevant_keys: [] 
+
+- id: q_041
+  query: 'Pokemon Black and White'
+  question: 'Are there Pokemon in the images? If so, can any of them learn the move Fusion Flare?'
+  type: 'unanswerable'
+  relevant_keys: [] 
+
+- id: q_042
+  query: 'Bladee'
+  question: 'Are any of the following individuals close collaborators with artists such as Yung Lean and Ecco2k?'
+  type: 'unanswerable'
+  relevant_keys: [] 
+
+- id: q_043
+  query: 'Pineapple on top of pizza'
+  question: 'Are any of these slices of pizza associated with a specific U.S. state?'
+  type: 'compositional'
+  relevant_keys: ['000035460', '000221349'] 
+
+- id: q_044
+  query: 'Exactly two golden retrievers.'
+  question: 'For only images of dogs of the same breed, what breed are they?'
+  type: 'compositional'
+  relevant_keys: ['000192434', '000042241', '000092273', '000204885', '000058277', '000216336', '000072456']
+
+- id: q_045
+  query: 'A man in a suit wearing sunglasses and smiling.'
+  question: 'How many unique colors of lenses are present in the following images?'
+  type: 'compositional'
+  relevant_keys: ['000145782', '000126934', '000209449', '000085605', '000018118', '000070840', '000123450']
+
+- id: q_046
+  query: 'Exactly two thumbs up.'
+  question: 'How many vertically upright fingers are present in the following images?'
+  type: 'compositional'
+  relevant_keys: ['000025718', '000026654'] 
+
+- id: q_047
+  query: 'Three scoops of ice cream.'
+  question: 'How many total scoops of ice cream are present in the following images?'
+  type: 'compositional'
+  relevant_keys: ['000002614', '000135401', '000146761', '000036157', '000160330'] 
+
+- id: q_048
+  query: 'Exactly two cans of coke'
+  question: 'How many of the following images show exactly 2 cans of Coke?'
+  type: 'compositional'
+  relevant_keys: ['000111345', '000228001'] 
+
+- id: q_049
+  query: 'A vase with exactly three different colored flowers.'
+  question: 'Do any of the following vases have exactly three distinct color of flowers? If so, which colors?'
+  type: 'compositional'
+  relevant_keys: ['000197392', '000224879'] 
+
+- id: q_050
+  query: 'A person with a single prosthetic arm.'
+  question: 'Do any of the images feature prosthetics? If som which body part?'
+  type: 'compositional'
+  relevant_keys: ['000148939'] 
+
+- id: q_051
+  query: 'A man with a black eyepatch.'
+  question: 'Do any of the people in the image wear an eyepatch? If so, over which eye?'
+  type: 'compositional'
+  relevant_keys: ['000100133', '000067708'] 
+
+- id: q_052
+  query: 'Sushi with salmon on top of it.'
+  question: 'Which common fish topping does each piece of sushi have on top of it?'
+  type: 'compositional'
+  relevant_keys: ['000190449', '000058922', '000169792', '000000358', '000159513', '000131177', '000163304', '000003078', '000119744', '000112038', '000159801']
+
+- id: q_053
+  query: 'Citizen ana digi temp'
+  question: 'Are any of the following images watches produced by Citizen?'
+  type: 'unanswerable'
+  relevant_keys: []    
+
+- id: q_054
+  query: 'Visvim'
+  question: 'Are any of the following images garments produced by Visvim?'
+  type: 'unanswerable'
+  relevant_keys: []    
+
+- id: q_055
+  query: 'Zero from Megaman'
+  question: 'Is the deuteragonist from the Megaman X series (not Megaman) present in any of the images?'
+  type: 'unanswerable'
+  relevant_keys: []    
+
+- id: q_056
+  query: 'Pot of Greed'
+  question: 'Are any of the following Yu-Gi-Oh cards? If so, are they banned?'
+  type: 'unanswerable'
+  relevant_keys: []    
+
+- id: q_057
+  query: 'Travis from No More Heroes'
+  question: 'Are any of the following individuals from the No More Heroes franchise?'
+  type: 'unanswerable'
+  relevant_keys: []   
+
+- id: q_058
+  query: 'TF2 engineer'
+  question: 'Are any of the characters depicted from the TF2 franchise?'
+  type: 'unanswerable'
+  relevant_keys: []   
+
+- id: q_059
+  query: 'A$AP Yams'
+  question: 'Are any of the following individuals a deceased member of A$AP mob?'
+  type: 'unanswerable'
+  relevant_keys: []   
+
+- id: q_060
+  query: 'Chrome Hearts jeans'
+  question: 'Do any of the following pants feature Chrome Hearts motifs?'
+  type: 'unanswerable'
+  relevant_keys: []   
